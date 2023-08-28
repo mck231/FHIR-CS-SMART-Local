@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>smart-local</name>
+    </assembly>
+    <members>
+        <member name="T:FhirUtils">
+            <summary>
+            FHIR Utility functions
+            </summary>
+        </member>
+        <member name="T:Program">
+            <summary>
+            Main Program
+            </summary>
+        </member>
+        <member name="M:Program.Main(System.String)">
+            <summary>
+            Program to access a SMART FHIR Server with a local webserver for redirection
+            </summary>
+            <param name="fhirServerUrl"> FHIR R4 endpoint</param>
+            <returns></returns>
+        </member>
+        <member name="M:Program.StartWebServerInBackground">
+            <summary>
+            Start a web server in the background and wait for it to initialize
+            </summary>
+        </member>
+        <member name="M:Program.GetListenPort">
+            <summary>
+            Determine to the listening port of the web server
+            </summary>
+            <returns></returns>
+            <exception cref="T:System.Exception"></exception>
+        </member>
+        <member name="P:Startup.Addressess">
+            <summary>
+            List of the webserver addresses in use
+            </summary>
+        </member>
+    </members>
+</doc>
