@@ -21,6 +21,20 @@
             <param name="fhirServerUrl"> FHIR R4 endpoint</param>
             <returns></returns>
         </member>
+        <member name="M:Program.SetAuthCode(System.String,System.String)">
+            <summary>
+            Set the authorization code and state
+            </summary>
+            <param name="code"></param>
+            <param name="state"></param>
+        </member>
+        <member name="M:Program.LaunchUrl(System.String)">
+            <summary>
+            Launch a URL in the user's default web browser
+            </summary>
+            <param name="url"></param>
+            <returns>true if successful, false otherwise</returns>
+        </member>
         <member name="M:Program.StartWebServerInBackground">
             <summary>
             Start a web server in the background and wait for it to initialize
