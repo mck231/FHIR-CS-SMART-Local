@@ -28,6 +28,12 @@
             <param name="code"></param>
             <param name="state"></param>
         </member>
+        <member name="M:Program.DoSomethingWithToken(SmartResponse)">
+            <summary>
+            Use a Smart token with the FHIR Net API
+            </summary>
+            <param name="smartResponse"></param>
+        </member>
         <member name="M:Program.LaunchUrl(System.String)">
             <summary>
             Launch a URL in the user's default web browser
@@ -46,6 +52,11 @@
             </summary>
             <returns></returns>
             <exception cref="T:System.Exception"></exception>
+        </member>
+        <member name="T:SmartResponse">
+            <summary>
+            Class to deserialize SMART auth responses
+            </summary>
         </member>
         <member name="P:Startup.Addressess">
             <summary>
